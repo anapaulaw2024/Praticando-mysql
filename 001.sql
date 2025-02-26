@@ -3,7 +3,7 @@ CREATE TABLE tipos_ataques(
     tipo VARCHAR(50),
     id TINYINT(1),
     consequencias VARCHAR(250),
-;)
+);
 INSERT INTO
 tipos_ataques(id,nome,tipo,consequencias)VALUES
 (1, 'phishing','engenharia social','roubo de informacoes'),
