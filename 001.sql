@@ -2,7 +2,7 @@ CREATE TABLE tipos_ataques(
     nome VARCHAR(50),
     tipo VARCHAR(50),
     id TINYINT(1),
-    consequencias VARCHAR(250),
+    consequencias VARCHAR(250)
 );
 INSERT INTO
 tipos_ataques(id,nome,tipo,consequencias)VALUES
